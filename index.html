@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+
+<head>
+  <meta charset="utf8">
+  <link rel="stylesheet" href="css/index.css">
+  <script src='js/i18n.js' charset="gbk"></script>
+  <script src='js/xml2json.js' charset="gbk"></script>
+  <script src='js/main.js' charset="gbk"></script>
+</head>
+
+<body>
+  <div class="page js-first-page">
+    <div class="data-choice-contain">
+      <div class="choice-date div-title js-start-date">请选择要开始日期:</div>
+      <input type="date" class="div-title-content js-the-date" id="js-the-date">
+      <div class="clear"></div>
+    </div>
+    <div class="choice-num-contain">
+      <div class="choice-number div-title js-days">从开始日期向前的天数:</div>
+      <select name="day-num" id="day-num" class="div-day-num">
+        <option value="1">0</option>
+        <option value="2">1</option>
+        <option value="3">2</option>
+        <option value="4">3</option>
+        <option value="5">4</option>
+        <option value="6">5</option>
+        <option value="7">6</option>
+        <option value="8">7</option>
+      </select>
+      <div class="clear"></div>
+    </div>
+    <div class="choice-num-contain">
+      <div class="div-title js-language">请选择国家语言:</div>
+      <select name="country-choice" id="js-country-choice" class="div-country-choice">
+        <option value="zh-cn">简体中文(中国)</option>
+        <option value="zh-tw">繁体中文(台湾地区)</option>
+        <option value="zh-hk">繁体中文(香港)</option>
+        <option value="en-us">英语(美国)</option>
+        <option value="en-au">英语(澳大利亚)</option>
+        <option value="es-ar">阿根廷</option>
+        <option value="de-at">德语(奥地利)</option>
+        <option value="nl-be">荷兰语(比利时)</option>
+        <option value="fr-be">法语(比利时)</option>
+        <option value="pt-br">葡萄牙语(巴西)</option>
+        <option value="fr-ca">法语(加拿大)</option>
+        <option value="en-ca">英语(加拿大)</option>
+        <option value="es-cl">西班牙语 (智利)</option>
+        <option value="fr-fr">法语(法国)</option>
+        <option value="da-dk">丹麦语(丹麦)</option>
+        <option value="fi-fi">芬兰语(芬兰)</option>
+        <option value="de-de">德语(德国)</option>
+        <option value="en-in">英语(印度)</option>
+        <option value="en-id">英语(印度尼西亚)</option>
+        <option value="it-it">意大利语(意大利)</option>
+        <option value="ja-jp">日语(日本)</option>
+        <option value="ko-kr">韩文(韩国)</option>
+        <option value="en-my">英语(马来西亚)</option>
+        <option value="es-mx">西班牙语(墨西哥)</option>
+        <option value="nl-nl">荷兰语(荷兰)</option>
+        <option value="en-nz">英语(新西兰)</option>
+        <option value="nb-no">英语(挪威)</option>
+        <option value="pl-pl">波兰语(波兰)</option>
+        <option value="en-ph">英语(菲律宾)</option>
+        <option value="ru-ru">俄语(俄罗斯)</option>
+        <option value="ar-sa">阿拉伯语(阿拉伯)</option>
+        <option value="en-za">英语(南非)</option>
+        <option value="es-es">西班牙语(西班牙)</option>
+        <option value="sv-se">瑞典语(瑞典)</option>
+        <option value="fr-ch">法语(瑞士)</option>
+        <option value="de-ch">德语(瑞士)</option>
+        <option value="tr-tr">土耳其语(土耳其)</option>
+        <option value="en-gb">英语(英国)</option>
+        <option value="es-us">西班牙语(美国)</option>
+      </select>
+      <div class="clear"></div>
+    </div>
+    <div class="data-choice-contain">
+      <div class="choice-date div-title js-resolution">请选择图片分辨率:</div>
+      <select name="ratio" id="js-ratio" class="div-day-num js-ratio">
+        <option value="1920x1080">1920x1080</option>
+        <option value="1366x768">1366x768</option>
+      </select>
+      <div class="clear"></div>
+    </div>
+    <div class="download-button" id="js-download0">下载</div>
+  </div>
+  <div class="page second-page js-second-page">
+    <div class="tips js-tips">抱歉，您的选择条件下没有查到图片，应该是bing官方接口已经没有该数据记录。</div>
+    <div class="cancle-button" id="js-cancle-button">返回</div>
+  </div>
+</body>
+
+</html>

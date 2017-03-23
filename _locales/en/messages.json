@@ -1,0 +1,30 @@
+{
+  "startDate": {
+    "message": "start date",
+    "description": "choose the start date"
+  },
+  "days": {
+    "message": "days bofore start date",
+    "description": "days bofore start date, the max is 7"
+  },
+  "language": {
+    "message": "Country and language",
+    "description": "the location and the language"
+  },
+  "resolution": {
+    "message": "resolution",
+    "description": "resolution of the picture(s) will be downloaded"
+  },
+  "download": {
+    "message": "download",
+    "description" : "click the button to start download pictures"
+  },
+  "tips": {
+    "message": "sorry , no pictures under this condition ,please set a different condition ",
+    "description": "no pictures found in the condition"
+  },
+  "back": {
+    "message": "back",
+    "description": "back to the download page"
+  }
+}

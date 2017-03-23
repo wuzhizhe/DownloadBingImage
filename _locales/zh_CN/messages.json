@@ -1,0 +1,30 @@
+{
+  "startDate": {
+    "message": "开始日期",
+    "description": "选择开始日期"
+  },
+  "days": {
+    "message": "从开始日期向前的天数",
+    "description": "从开始日期向前倒数多少天，最多7天"
+  },
+  "language": {
+    "message": "国家及语言",
+    "description": "国家所在地区以及使用的语言"
+  },
+  "resolution": {
+    "message": "分辨率",
+    "description": "图片的分辨率"
+  },
+  "download": {
+    "message": "下载",
+    "description" : "点击可以开始执行下载"
+  },
+  "tips": {
+    "message": "抱歉，您的选择条件下没有查到图片，应该是bing官方接口已经没有该数据记录。",
+    "description": "提示用户该选择条件下没有查找到图片。"
+  },
+  "back": {
+    "message": "返回",
+    "description": "返回到下载页"
+  }
+}

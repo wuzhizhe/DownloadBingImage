@@ -1,0 +1,26 @@
+{
+"update_url": "https://clients2.google.com/service/update2/crx",
+
+  "manifest_version": 2,
+  "name": "DownloadBingImage",
+  "short_name": "DownloadBingImages",
+  "description": "Download images from bing.com",
+  "version": "1.4",
+  "minimum_chrome_version": "31",
+  "default_locale": "zh_CN",
+  "permissions": [
+    "http://global.bing.com",
+    "downloads"
+  ],
+  "icons": {
+    "32": "assets/icons/bing_32.png",
+    "48": "assets/icons/bing_48.png",
+    "64": "assets/icons/bing_64.png",
+    "128": "assets/icons/bing_128.png"
+  },
+  "browser_action" : {
+    "default_icon": "assets/icons/bing_128.png",
+    "default_popup": "index.html",
+    "default_title": "Download Bing Images!"
+  }
+}

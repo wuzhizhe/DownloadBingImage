@@ -1,0 +1,72 @@
+body {
+  margin: 0;
+}
+
+.clear {
+  clear: both;
+}
+
+.page {
+  width: 342px;
+}
+
+.div-title {
+  float: left;
+  height: 40px;
+  line-height: 40px;
+  width: 170px;
+  font-size: 16px;
+  text-align: right;
+}
+
+.div-title-content {
+  margin-left: 20px;
+  margin-top: 9px;
+  float: left;
+  width: 137px;
+  height: 20px;
+}
+
+.div-day-num,
+.div-country-choice {
+  margin-left: 20px;
+  margin-top: 9px;
+  float: left;
+  width: 142px;
+  height: 24px;
+}
+
+.download-button {
+  margin: 20px auto;
+  height: 30px;
+  line-height: 30px;
+  width: 80px;
+  text-align: center;
+  color: white;
+  font-size: 14px;
+  font-family: "microsoft yahei";
+  cursor: pointer;
+  background: #ff9a00;
+}
+
+.second-page {
+  padding: 20px;
+  display: none;
+}
+
+.tips {
+  font-size: 18px;
+  text-align: center;
+}
+
+.cancle-button {
+  margin: 20px auto;
+  height: 40px;
+  width: 80%;
+  font-size: 20px;
+  line-height: 40px;
+  color: white;
+  text-align: center;
+  cursor: pointer;
+  background: #ff9a00;
+}
